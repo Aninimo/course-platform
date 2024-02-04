@@ -4,7 +4,7 @@ import Stripe from 'stripe';
 
 import prismadb from '../../lib/prismadb';
 
-const stripe = new Stripe('sk_test_51OZsqODFv5B1ocuyaDk7xstegveApUAXhOQgVr0Xo65xG2Gju8nraFA6h1h2cMBZskUDVUIVvaCEPCaKAKKlYj8d002oyi93LJ', {
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   apiVersion: '2023-10-16'
 });
 
