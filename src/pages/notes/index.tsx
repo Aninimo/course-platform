@@ -77,7 +77,7 @@ export default function NotePage({ notes }: Props) {
       ) : null}
       <ul>
         {notes.map((note) => (
-          <li className='w-52 flex items-center gap-4 bg-gray-300 rounded p-2' key={note.id}>
+          <li className='w-52 flex items-center gap-4 bg-gray-300 rounded p-2 mb-4' key={note.id}>
             <div className='w-2 h-12 bg-zinc-900 rounded'>
             </div>
             <Link
