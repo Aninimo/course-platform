@@ -9,7 +9,6 @@ interface ChapterProps{
   name: string;
   description: string;
   video: IUrl;
-  isCompleted: boolean;
 }
 
 export default requireAuth(async (
