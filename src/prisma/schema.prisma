@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "mongodb"
-  url      = env("DATABASE_URL")
+  url      = "mongodb+srv://githubPlatform:course@cluster0.lh8k8ia.mongodb.net/test"
 }
 
 model Course{
@@ -16,6 +16,9 @@ model Course{
   name String
   image String? @db.String
   chapters Chapter[]
+
+  subscriptionId    String
+  subscription      Subscription @relation(fields: [subscriptionId], references: [id])
   
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -29,8 +32,6 @@ model Chapter {
   
   courseId String
   course Course @relation(fields: [courseId], references: [id], onDelete: Cascade)
-
-  isCompleted Boolean @default(false)
   
   @@index([courseId])
 }
@@ -46,6 +47,6 @@ model Note {
 
 model Subscription {
   id       String   @id @default(auto()) @map("_id") @db.ObjectId
-  userId    String   @unique
-  status       String
+  userId   String   @unique
+  status   String   @default("false")
 }
