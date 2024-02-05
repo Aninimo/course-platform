@@ -17,9 +17,6 @@ model Course{
   image String? @db.String
   chapters Chapter[]
 
-  subscriptionId    String
-  subscription      Subscription @relation(fields: [subscriptionId], references: [id])
-  
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 }
