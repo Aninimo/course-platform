@@ -15,7 +15,7 @@ interface Props {
 
 export default function CourseId({ course, subscription }: Props) {
   const startCourse = async () => {
-    if (course.isPremium === false || (course.isPremium === true && subscription.status === 'active')) {
+    if (course.isPremium === false || (course.isPremium === true && subscription?.status === 'active')) {
       try {
         const response = await fetch('/api/startCourse', {
           method: 'POST',
@@ -40,6 +40,7 @@ export default function CourseId({ course, subscription }: Props) {
 
   return (
     <main>
+      
       <video autoPlay className='w-11/12 mt-8'>
         <source src={course.video.url} />
       </video>
