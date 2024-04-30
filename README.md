@@ -18,4 +18,5 @@ Stay motivated with monthly graphs that highlight the number of courses taken in
 
 ## Installation 💾
 ```
+git clone https://github.com/Aninimo/course-platform.git
 ```
