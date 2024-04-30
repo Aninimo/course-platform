@@ -21,6 +21,11 @@ Stay motivated with monthly graphs that highlight the number of courses taken in
 git clone https://github.com/Aninimo/course-platform.git
 ```
 
+## Install deps:
+```
+npm install
+```
+
 ## 💻 Technologies used
 <ul>
   <li>Next</li>
