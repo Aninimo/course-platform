@@ -42,6 +42,11 @@ STRIPE_SECRET_KEY
 npm run dev
 ```
 
+## Run test
+```
+npm test
+```
+
 ## 💻 Technologies used
 <ul>
   <li>Next</li>
