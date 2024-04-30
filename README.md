@@ -15,3 +15,7 @@ https://course-one.vercel.app
 Stay motivated with monthly graphs that highlight the number of courses taken in the month, encouraging a constant learning journey.
 
 📝 Custom Notes: Take advantage of note-taking functionality to organize your ideas, insights, and learning goals.
+
+## Installation 💾
+```
+```
