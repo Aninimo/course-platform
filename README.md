@@ -26,6 +26,15 @@ git clone https://github.com/Aninimo/course-platform.git
 npm install
 ```
 
+## Setup .env file
+```
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+HYGRAPH_KEY=
+```
+
 ## Run dev server:
 ```
 npm run dev
