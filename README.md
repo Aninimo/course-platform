@@ -20,3 +20,13 @@ Stay motivated with monthly graphs that highlight the number of courses taken in
 ```
 git clone https://github.com/Aninimo/course-platform.git
 ```
+
+## 💻 Technologies used
+<ul>
+  <li>Next</li>
+  <li>Typescript</li>
+  <li>Tailwindcss</li>
+  <li>Prismadb</li>
+  <li>Graphql</li>
+  <li>Stripe</li>
+</ul>
