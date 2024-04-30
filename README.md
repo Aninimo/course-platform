@@ -26,6 +26,11 @@ git clone https://github.com/Aninimo/course-platform.git
 npm install
 ```
 
+## Run dev server:
+```
+npm run dev
+```
+
 ## 💻 Technologies used
 <ul>
   <li>Next</li>
