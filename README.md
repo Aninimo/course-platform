@@ -3,6 +3,9 @@ Course platform made with next, typescript, tailwindcss, prismadb, graphql and s
 
 ![Screenshot_20240202-075722_1](https://github.com/Aninimo/course-platform/assets/75839810/5c171ac2-1099-45a6-80f1-98511a4667bf)
 
+## Demo
+https://course-one.vercel.app
+
 # Main Features:
 🔐 Secure Authentication: Implementation of Clerk's secure authentication to ensure data integrity and user privacy.
 
